@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michelin CrossClimate2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <style type="text/css">
+    .results-section {
+  flex: 1; /* Make this section take the remaining space */
+}
+
+.filter-section {
+  width: 20%; /* Set a fixed width for the filter section */
+  padding-right: 20px;
+  border-right: 2px solid black; /* Add the vertical line */
+}
+
+.results-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+  </style>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #030b28;">
+    <div class="container">
+        <a class="navbar-brand nav-link" href="Homepage.html" style="color: #FFFFFF">
+            <img src="OnAirTiresLogo.png" alt="Homepage Icon" style="width: 125px; height: 60px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <input type="text" class="form-control w-500" style="width: 450px" placeholder="Search">
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-flex align-items-center justify-content-center">
+                <!--  Navigation Links -->
+                <li class="nav-item me-4"> 
+                    <a class="nav-link" href="SearchPage.html" style="color: #FFFFFF">Find My Tire</a>
+                </li>
+                <li class="nav-item me-4"> 
+                    <a class="nav-link" href="" style="color: #FFFFFF">New In Stock</a>
+                </li>
+                <li class="nav-item me-4"> 
+                    <a class="nav-link" href="#" style="color: #FFFFFF">Shop Locator</a>
+                </li>
+                <!-- Vertical Line Separator -->
+                <li class="nav-item">
+                    <div style="border-left: 2px solid #FFFFFF; height: 25px; margin:10px;"></div>
+                </li>
+                <!-- Profile and Cart Icons -->
+                <li class="nav-item"><a class="nav-link" href="#" style="color: #FFFFFF">
+                    <img src="ProfileIcon.png" alt="ProfileIcon" style="width: 25px; height: 25px;">
+                </a></li>
+                <li>
+                <div style="border-left: 2px solid #FFFFFF; height: 25px; margin: 10px;"></div> <!-- Vertical Line -->
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color: #FFFFFF">
+                    <img src="CartIcon.png" alt="CartIcon" style="width: 25px; height: 25px;">
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="row">
+      <!-- Column for Michelin Logo and Tire Image -->
+      <div class="col-md-6">
+        <!-- Michelin Logo -->
+        <img src="Michelin.png" alt="Michelin CrossClimate2" class="img-fluid">
+        <!-- Tire Image Underneath -->
+        <img src="TireImage.png" alt="Tire Image" class="img-fluid"> 
+      </div>
+      <!-- Column for Product Details -->
+      <div class="col-md-6">
+        <h2 class="fw-bold">Michelin CrossClimate2</h2>
+        <h4 class="text-muted">Grand Touring All-Season</h4>
+        <div class="d-flex align-items-center">
+          <span class="star">&#9733;&#9733;&#9733;&#9733;&#9734; (2,067)</span>
+        </div>
+        <h3 class="fw-bold my-3">$205.99 <small class="text-muted">per tire</small></h3>
+        <form class="d-flex align-items-center">
+          <label for="quantity" class="me-3">QTY</label>
+          <input type="number" id="quantity" class="form-control w-25 me-3" value="4" min="1">
+          <h4 class="fw-bold">$823.96</h4>
+        </form>
+        <button class="btn btn-primary btn-lg mt-3" style="background-color: #030b28">Add to Cart</button>
+        <div class="mt-4">
+          <p><strong>Size:</strong> 215/55R17</p>
+          <p><strong>Style:</strong> Blackwall</p>
+          <p><strong>Eco Focus:</strong> Michelin Total Performance</p>
+          <p><strong>Load Range:</strong> SL</p>
+          <p><strong>Service Description:</strong> 94V</p>
+          <p><strong>UTQG:</strong> 640 B A</p>
+          <p><strong>Severe Snow Service Rated:</strong>Yes</p>
+          <p><strong>Description:</strong></p>
+          <p style="font-size: 16px; font-weight: 500;">The CrossClimate² is Michelin’s Grand Touring All-Season tire designed for sedans, SUVs, and other vehicles needing reliable performance in dry, wet, and light snow conditions. It meets severe snow service requirements and carries the three-peak mountain snowflake (3PMSF) symbol, making it ideal for year-round use without needing a dedicated winter tire.
+
+          The tire features a Thermal Adaptive Tread Compound for flexibility in cold weather and a V-Formation tread design for improved grip in all conditions. PIANO Noise Reduction Tuning minimizes road noise, while V Ramp chamfers and 3D SipeLock Technology enhance braking, handling, and traction. Steep tread angles help resist hydroplaning, and the grooveless design improves wear and adds biting edges for winter performance.
+
+          Internally, the CrossClimate² has a two-ply polyester casing, two steel belts, and a polyamide reinforcement for better stability at high speeds.
+
+          Note: While tires with the 3PMSF symbol offer better snow traction than standard all-season (M+S) tires, they do not match the performance of true winter tires in extreme conditions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

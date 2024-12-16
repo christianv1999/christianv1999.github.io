@@ -1,0 +1,205 @@
+       .body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background-image: url('OnAirTiresBackgroundImage.jpg'); /* Replace with the image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            position: relative;
+            background-color: yellow;
+        }
+        .hero .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .hero .content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #333;
+        }
+        .inventory, .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            background: #ccc;
+            border-radius: 8px;
+        }
+        .mission {
+            text-align: center;
+            color: black;
+            padding: 20px;
+        }
+
+        .cart {
+            width: 50px;
+            height: 50px;
+            align-content: align with text;
+            color: white;
+        }
+
+        .star {
+            color: gold;
+            font-size: 20px;
+        }
+
+
+        .background {
+            background-color: white;
+            
+        }
+
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+input.form-control {
+    height: 40px;
+    margin-top: 0; 
+
+.cart {
+    width: 60px;
+    height: 60px;
+    margin-top: -2px; 
+}
+    .body {
+            background-color: yellow;
+            width: 100vw;
+        }
+        .container {
+            width: 100vw;
+            padding: 20px;
+            background: yellow;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            border-radius: 5px;
+        }
+        .background {
+            background-color: #050a28;
+        }
+        .h5 {
+            color: #333;
+            font-weight: bold;
+        }
+
+            body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .results-container {
+      padding: 20px;
+    }
+    .filter-section {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+    }
+    .results-section {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    .product-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+    .product-price {
+      color: #28a745;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .btn-add-cart {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .btn-add-cart:hover {
+      background-color: #333;
+    }
+
+    .box {
+    width: 150px; /* Fixed width for the box */
+    height: 150px; /* Fixed height for the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Center horizontally */
+    border: 1px solid #ddd; /* Optional: Border for visibility */
+    overflow: hidden; /* Ensures nothing overflows */
+    text-align: center;
+    background-color: #f8f8f8; /* Optional background color */
+}
+
+.box p {
+    margin: 5px 0; /* Space between text and image */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-image {
+    width: 100%; /* Ensure image scales to box width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 80%; /* Image height will not exceed 80% of box */
+    object-fit: contain; /* Fit image inside the box without distortion */
+}
+
+.line-with-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0; /* Adjust spacing as needed */
+  position: relative;
+}
+
+.line-with-text::before,
+.line-with-text::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: black; /* Line color */
+}
+
+.line-with-text span {
+  margin: 0 10px; /* Space around the word */
+  font-weight: bold; /* OR word styling */
+  color: black;
+  white-space: nowrap;
+}
