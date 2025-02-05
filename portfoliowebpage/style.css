@@ -54,6 +54,7 @@ img {
 
 hr {
   border: 1px solid black;
+  width: 50%;
 }
 
 /* Add your solution below */
@@ -91,6 +92,4 @@ footer {
   padding-top: 20px;
 }
 
-hr {
-  width: 50%;
-}
+
